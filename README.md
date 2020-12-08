@@ -65,6 +65,16 @@ Generate a backend and frontend stack using Python, including interactive API do
 * Traefik integration, including Let's Encrypt **HTTPS** certificates automatic generation.
 * GitLab **CI** (continuous integration), including frontend and backend testing.
 
+I have included a few additions on top of the substantial list of useful features above, namely:
+
+* **Precommit requirements** from the [sourcery-ai/python-best-practices-cookiecutter](https://github.com/sourcery-ai/python-best-practices-cookiecutter) project template.
+	* **isort** import cleanup and sorting
+	* **black** opinionated, automatic python linting
+	* **flake8** for additional style guide enforcement
+	* **mypy** for type-checking, where available
+	* **pytest** to enforce (though I know I will be a bad person and periodically override it... :( ) test coverage
+
+
 ## How to use it
 
 Go to the directory where you want to create your project and run:
